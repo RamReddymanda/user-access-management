@@ -89,10 +89,7 @@ const Login = () => {
       const { token, role } = res.data;
       console.log(token, role);
       
-      // if (token && role) {
-      //   localStorage.setItem('token', token);
-      //   localStorage.setItem('user', JSON.stringify({ username, role }));
-      //     // Store user info and role
+
         login({
           username: res.data.username,
           role: res.data.role,

@@ -1,8 +1,4 @@
 const express = require("express");
-const bcrypt = require("bcrypt");
-const jwt = require("jsonwebtoken");
-const { AppDataSource } = require("../config/data-source");
-const { User } = require("../src/entities/User");
 const { signup ,login} = require("../controllers/authController");
 
 const router = express.Router();
