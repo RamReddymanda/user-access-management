@@ -1,6 +1,6 @@
 const { DataSource } = require("typeorm");
 require("dotenv").config();
-
+//this is for database ininitialization
 const AppDataSource = new DataSource({
   type: "postgres",
   host: process.env.DB_HOST,

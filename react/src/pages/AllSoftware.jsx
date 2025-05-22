@@ -33,7 +33,7 @@ const AllSoftware = () => {
   };
 
   const handleEdit = (id) => {
-    navigate(`/edit-software/${id}`); // Ensure this route exists
+    navigate(`/edit-software/${id}`);
   };
 
   useEffect(() => {

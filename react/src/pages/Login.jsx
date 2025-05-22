@@ -117,6 +117,8 @@ const Login = () => {
   }  
 
   return (
+    <>
+    <h1 style={{ textAlign: 'center', marginTop: '20px' }}>Login</h1>
     <Form onSubmit={handleSubmit}>
       <input
         type="text"
@@ -136,6 +138,7 @@ const Login = () => {
       {success && <p className="success-message">{success}</p>}
       {error && <p className="error-message">{error}</p>}
     </Form>
+    </>
   );
 };
 
