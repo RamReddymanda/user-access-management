@@ -43,7 +43,7 @@ This system ensures secure, scalable, and maintainable user management with JWT 
 
 | Layer             | Technology                             |
 |-------------------|-------------------------------------|
-| Backend           | Node.js, Express.js, TypeORM         |
+| Backend           | Node.js, Express.js, TypeORM (using EntitySchema in JavaScript)|
 | Database          | PostgreSQL                           |
 | Authentication    | JWT (JSON Web Tokens), bcrypt        |
 | Frontend          | React.js, React Router, Axios, styled-components |
